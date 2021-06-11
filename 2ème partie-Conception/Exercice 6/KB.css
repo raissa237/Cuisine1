@@ -1,0 +1,191 @@
+body{
+    margin: 0%;
+    font-family: Century Gothic;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #217dc8;
+}
+#logo{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 290px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 38px;
+}
+li{
+    margin-left: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #e1f1ff;
+    padding-bottom: 5%;
+}
+#img_head{
+    border-radius: 45px;
+    margin-top: 77px;
+}
+#texte_intro{
+    margin-top: 10%;
+    margin-left: 26px;
+}
+#titre1{
+    font-size: 45px;
+}
+#para1, marquee{
+    font-size: 30px;
+}
+#buzz1, #buzz2{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 100px;
+}
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8{
+    width: 297px;
+    height: 200px;
+}
+.para{
+    width: 281px;
+    height: 146px;
+    border: 2px solid #e4e4e48f;
+    margin-top: -6px;
+    background-color: white;
+    padding: 6px;
+}
+#buzz2{
+    padding-bottom: 5%;
+    margin-bottom: 0%;
+}
+#sect{
+    text-align: center;
+    color: #060628;
+    padding-top: 25px;
+    font-size: 22px;
+}
+#titre_sect{
+    margin-top: 0px;
+}
+#japap{
+    background-color: ghostwhite;
+}
+#actu_j{
+    display: flex;
+    justify-content: space-around;
+}
+.align{
+    display: flex;
+}
+#actu{
+    color: #060628;
+    font-size: 20px;
+    background-color: #e1f1ff;
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.lettre{
+    font-weight: bold;
+    font-size: 40px;
+}
+#jap{
+    border-radius: 29px;
+    margin-top: 5%;
+    height: 629px;
+    width: 610px;
+    margin-left: 30px;
+}
+#japa{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 0%;
+}
+.domaine{
+    margin-left: 2%;
+}
+button{
+    border: none;
+    border-radius: 25px;
+    height: 35px;
+    width: 75px;
+    background-color: #f3613c;
+    margin-left: 48%;
+}
+#live_japap{
+    display: flex;
+    justify-content: space-around;
+}
+#titre_live{
+    text-align: center;
+    font-size: 30px;
+}
+#live{
+    margin: 5%;
+}
+video{
+    width: 304px;
+    height: 500px;
+}
+.para_video{
+    font-size: 18px;
+    color: #060628;
+}
+#foot{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3%;
+}
+#image_foot{
+    width: 224px;
+    height: 257px;
+    margin-top: 16%;
+}
+.logo_reseau{
+    width: 30px;
+    height: 30px;
+}
+footer{
+    background-color: #060628;
+    color: white;
+    font-size: 19px;
+}
+#copy{
+    margin-bottom: 0%;
+    margin-left: 60%;
+}
+#foot_copy{
+    background-color: #217dc8;
+    padding: 1%;
+}
+#site{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 6%; 
+}
+li a:hover{
+    color: #060628;
+    text-decoration: underline;
+    font-size: 20px;
+}
+p a:hover{
+    color: #f3613c;
+    text-decoration: underline;
+    font-size: 20px;
+}
+button a:hover{
+        color: #060628;
+}
+.para_video:hover{
+    font-weight: bold;
+    color: #f3613c;
+    font-size: 20px;
+}

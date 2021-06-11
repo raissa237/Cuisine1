@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="part1-exo4.css">
+        <title>Formulaire</title>
+    </head>
+    <body>
+        <section>
+            <div id="contour">
+                <h2>Survey Form</h2>
+                <div id="interieur">
+                    <form method="POST" action="form.php">
+                        <p>
+                            <h3>Let us now how we can improve freeCodeCamp</h3>
+                            <br>
+                            <div class="align">
+                                <div class="left1">
+                                    <label for="nom">
+                                        *Name:
+                                    </label>
+                                </div>
+                                <div class="right1">
+                                    <input type="text" name="nom" id="nom" placeholder="Enter your name">
+                                </div>
+                            </div>
+                            <br> 
+                            <div class="align">
+                                <div class="left1">
+                                    <label for="mail">
+                                        *Email:
+                                    </label>
+                                </div>
+                                <div class="right1">
+                                    <input type="email" name="email" id="mail" placeholder="Enter your Email">
+                                </div>
+                            </div>
+                            <br> 
+                            <div class="align">
+                                <div id="left2">
+                                    <label for="age">
+                                        *Age:
+                                    </label>
+                                </div>
+                                <div class="right1">
+                                    <input type="number" name="age" id="age" placeholder="Age">
+                                </div>
+                            </div>
+                            <br> 
+                            <div class="align">
+                                <div id="left3">
+                                    <p> Which option best describes your current role?</p>
+                                </div>
+                                <div id="right2">
+                                    <select name="profession" id="role">
+                                        <option value="étudiant">Student</option>
+                                        <option value="élève">Scholar</option>
+                                        <option value="professeur">Professor</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <br> 
+                            <div class="align">
+                                <div class="left4">
+                                    <p>*How likely is that you would recommand <br> freeCodeCamp to a friend?</p>
+                                </div>
+                                <div class="right3">
+                                    <input type="radio" name="recommandation" value="definitely" id="prob1"/>
+                                    <label for="prob1">Definitely</label> 
+                                    <br/>
+                                    <input type="radio" name="recommandation" value="maybe" id="prob2"/>
+                                    <label for="prob2">May be</label> 
+                                    <br/>
+                                    <input type="radio" name="recommandation" value="notsure" id="prob3"/>
+                                    <label for="prob3">Not sure</label>
+                                </div>
+                            </div>
+                            <br> 
+                            <div class="align">
+                                <div id="left5">
+                                    <p>What do you like most in FCC:</p>
+                                </div>
+                                <div class="right3">
+                                    <select name="freeCodeCamp" id="FCC">
+                                        <option value="choix">Select an option </option>
+                                        <option value="travail">Work</option>
+                                        <option value="ambiance">Atmosphere</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <br>
+                            <div class="align">
+                                <div class="left4">Things that should be improve in the future <br> (check all that apply):</div>
+                                <div class="right3">
+                                    <input type="checkbox" name="front" id="front"/>
+                                    <label for="front">Front-end projects</label> <br/>
+                                    <input type="checkbox" name="back" id="back"/>
+                                    <label for="back">Back-end projects</label> <br/>
+                                    <input type="checkbox" name="data" id="data">
+                                    <label for="data">Data visualization</label> <br/>
+                                </div>
+                            </div>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>

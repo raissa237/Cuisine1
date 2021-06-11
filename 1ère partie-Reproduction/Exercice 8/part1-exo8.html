@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="part1-exo8.css">
+        <title>Exercice 8</title>
+    </head>
+    <body>
+        <section>
+            <div class="tete_pied"></div>
+            <div id="repere">
+                <div>
+                    <div id="texte">
+                        <h4>Av. Lùcio Costa</h4>
+                        <p id="lieu">Rio de Janeiro - Etat de Rio de <br> Janeiro, Brésil</p>
+                        <p><a href="#">Agrandir le plan</a></p>
+                    </div>
+                    <img src="image/map.jpg" alt="map" id="photo">
+                </div>
+                <div class="colonne">
+                    <form method="POST" action="map.php">
+                        <p>
+                            <input type="text" name="nom" id="nom" placeholder="Name"> <br>
+                            <input type="email" name="mail" id="mail" placeholder="Email"> <br>
+                            <textarea name="commentaire" id="comment" placeholder="Message..." rows="5"></textarea><br>
+                            <input type="submit" value="Send" id="envoyer">
+                        </p>
+                    </form>
+                </div>
+                <div class="colonne">
+                    <p>Pellentesque egestas odio sed tellus dictum, vel lobortis ante vehicula.</p>
+                    <p class="para">Morbi eget accumsan libero, non tincidunt felis.</p>
+                    <p class="para">Tel: 010-020-0990 <br> Email: info@company.com</p>
+                </div>
+            </div>
+            <div class="tete_pied"></div>
+        </section>
+    </body>
+</html>

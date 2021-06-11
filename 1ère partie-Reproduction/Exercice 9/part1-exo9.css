@@ -1,0 +1,49 @@
+.photo{
+    width: 72%;
+    margin-bottom: -5px;
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    margin-left: 3%;
+}
+.etoile{
+    width: 5%;
+}
+.align{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.box{
+    border: 3px solid #f6f6f6;
+    background-color: white;
+    width: 65%;
+    padding: 20px;
+}
+.para_1{
+    color: #195279;
+    font-size: 22px;
+    font-weight: bold;
+}
+.para_2{
+    color: #00101b;
+    font-size: 22px;
+    font-weight: bold;
+}
+.para_3{
+    color: #de0000;
+    font-weight: bold;
+}
+body{
+    font-family: Tahoma;
+    margin-top: 10%;
+}
+.texte{
+    color: #79787b;
+    font-size: 17px;
+}
+.marge{
+    margin-right: -9%;
+}

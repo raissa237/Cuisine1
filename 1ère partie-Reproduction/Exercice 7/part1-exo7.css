@@ -1,0 +1,36 @@
+section{
+    display: flex;
+    border: 7px solid #1c4587;
+    width: 1250px;
+    margin: 4% 0% 0% 10%;
+}
+#part2{
+    padding: 0% 8% 0% 8%;
+}
+h1{
+    color: #0e529b;
+    font-size: 40px;
+}
+h3{
+    color: #074472;
+    font-size: 25px;
+    margin-top: 15%;
+}
+#nom, #mail, #adresse, #phone, #bouton{
+    width: 97%;
+    height: 35px;
+}
+#bouton{
+    background-color: #0b559e;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 99%;
+}
+#nom, #mail, #adresse, #phone, #box{
+    opacity: 0.25;
+    font-weight: 800;
+}
+label{
+    color: #dbdbdb;
+}

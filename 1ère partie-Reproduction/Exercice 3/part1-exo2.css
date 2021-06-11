@@ -1,0 +1,45 @@
+#align1{
+    display: flex;
+    position: relative;
+    z-index: 0;
+}
+#align2{
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+.blanc{
+    border: 2px solid black;
+    width: 34px;
+    height: 160px;
+}
+#deplace1, #deplace2, #deplace3, #deplace4, #deplace5{
+    transform: translateX(10px);
+}
+#deplace6, #deplace7{
+    transform: translateX(6px);
+}
+.noir{
+    background-color: black;
+    border: 2px solid black;
+    width: 25px;
+    height: 110px;
+    margin-left: 11px;
+}
+.vide{
+    width: 25px;
+    height: 110px;
+    margin-left: 11px;
+}
+section{
+    width: 798px;
+    box-sizing: content-box;
+    border-color: yellowgreen;
+    border-style: solid;
+    border-right-width: 15px;
+    border-left-width: 15px;
+    border-bottom-width: 15px;
+    border-top-width: 100px;
+    border-radius: 8px;
+    margin: 15% 0% 0% 23%;
+}

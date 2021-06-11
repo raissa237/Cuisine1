@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+}
+section{
+    margin: 5% 15% 0% 15%;
+}
+#contour{
+    background-color: rgb(120, 187, 196);
+    padding: 3% 5% 0% 5%;
+}
+#interieur{
+    background-color: #f5f5f5;
+    padding: 2%;
+}
+h2, h3{
+    text-align: center;
+}
+.align{
+    display: flex;
+    align-items: baseline;
+}
+.left1{
+    margin-left: 40%;
+}
+.right1{
+    margin-left: 2%;
+}
+#left2{
+    margin-left: 41%;
+}
+#right2{
+    margin-left: 2.5%;
+}
+#left3{
+    margin-left: 13%;
+}
+.right3{
+    margin-left: 2%;
+}
+.left4{
+    margin-left: 16%;
+}
+#left5{
+    margin-left: 24%;
+}
+#nom, #mail, #age{
+    width: 160%;
+}
